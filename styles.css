@@ -1,0 +1,102 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header and Navigation Styles */
+  header {
+    color: #dd0c0c;
+    padding: 10px 0;
+  
+  }
+
+  .nav-link {
+    color: #e02825;
+}
+
+ .navbar-brand img {
+    height: 100px;
+    width: 100px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+  }
+  
+  nav ul li a:hover {
+    color: #ffcc00;
+  }
+  
+  /* Grid Container */
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+    justify-items: center;
+  }
+  
+  /* Car Kit Section Styles */
+  .car-kit {
+    position: relative;
+    perspective: 1000px; /* Set the perspective for 3D effect */
+    text-align: center;
+  }
+  
+  .car-image {
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.4s ease-in-out;
+  }
+  
+  .car-image img {
+    max-width: 80%;
+    height: auto;
+    transition: transform 0.4s ease-in-out;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.1); /* Overlay color */
+    transition: background-color 0.4s ease-in-out;
+  }
+  
+  /* Apply 3D effect on hover */
+  .car-kit:hover .car-image {
+    transform: rotateY(15deg); /* Rotate the image on Y-axis */
+  }
+  
+  .car-kit:hover .car-image img {
+    transform: scale(1.1); /* Scale the image for zoom effect */
+  }
+  
+  .car-kit:hover .overlay {
+    background-color: rgba(255, 255, 255, 0); /* Change overlay color on hover */
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #e02825;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
