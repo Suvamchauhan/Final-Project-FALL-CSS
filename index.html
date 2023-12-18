@@ -3,88 +3,95 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Automoblox Car Kits</title>
+  <title>Automoblox</title>
   <link rel="stylesheet" href="styles.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+  <!-- Bootstrap CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  
 </head>
+
 <body>
 
-  <header>
+    <header>
 
-  <nav class="navbar navbar-expand-lg ">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">
-        <img src="./Images/automoblox-logo-BDBA0D8998-seeklogo.com.png" style="width: 150px; height: auto;" alt="Automoblox Logo">                
-
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-  
-        <!-- Second set of navigation links -->
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contacts</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Car Kits
+        <nav class="navbar navbar-expand-lg ">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img src="./Images/automoblox-logo-BDBA0D8998-seeklogo.com.png" style="width: 150px; height: auto;" alt="Automoblox Logo">                
+      
             </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#kit1">Car Kit 1</a></li>
-              <li><a class="dropdown-item" href="#kit2">Car Kit 2</a></li>
-              <li><a class="dropdown-item" href="#kit3">Car Kit 3</a></li>
-              <li><a class="dropdown-item" href="#kit4">Car Kit 4</a></li>
-              <li><a class="dropdown-item" href="#kit5">Car Kit 5</a></li>
-            </ul>
-          </li>
-          
-        </ul>
-        <!-- End of second set of navigation links -->
-  
-        <!-- Search form -->
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
-        <!-- End of search form -->
-      </div>
-    </div>
-  </nav>
-</header>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        
+              <!-- Second set of navigation links -->
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contacts</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Car Kits
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#kit1">Car Kit 1</a></li>
+                    <li><a class="dropdown-item" href="#kit2">Car Kit 2</a></li>
+                    <li><a class="dropdown-item" href="#kit3">Car Kit 3</a></li>
+                    <li><a class="dropdown-item" href="#kit4">Car Kit 4</a></li>
+                    <li><a class="dropdown-item" href="#kit5">Car Kit 5</a></li>
+                  </ul>
+                </li>
+                
+              </ul>
+              <!-- End of second set of navigation links -->
+        
+              <!-- Search form -->
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+              <!-- End of search form -->
+            </div>
+          </div>
+        </nav>
+      </header>
   
 
-<main class="container">
-  <h1 class="text-center text-danger">Automoblox - Toy Cars</h1>
-  <div id="carouselExampleIndicators" class="carousel slide">
-    <div id="carouselExample" class="carousel slide">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="./Images/a9_large.jpg" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="./Images/a9s_large.jpg" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="./Images/c9_large.jpg" class="d-block w-100" alt="...">
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
+      <main class="container">
+        <h1 class="text-center text-danger">Automoblox - Toy Cars</h1>
+            
+        <!-- Carousel section -->
+        <section class="container">
+          <div id="carsCarousel" class="carousel slide" data-ride="carousel" data-interval="3000"> <!-- Change the interval here -->
+            <div class="carousel-inner">
+              <!-- Car slides -->
+              <div class="carousel-item active">
+                <img src="./Images/s9r_large.jpg" class="d-block w-100" alt="Car 1">
+              </div>
+              <div class="carousel-item">
+                <img src="./Images/x9x_large.jpg" class="d-block w-100" alt="Car 2">
+              </div>
+              <div class="carousel-item">
+                <img src="./Images/s9_large.jpg" class="d-block w-100" alt="Car 3">
+              </div>
+              <div class="carousel-item">
+                <img src="./Images/c9r_large.jpg" class="d-block w-100" alt="Car 4">
+              </div>
+              <div class="carousel-item">
+                <img src="./Images/m9_large.jpg" class="d-block w-100" alt="Car 5">
+              </div>
+            </div>
+          </div>
+        </section>
+
     <section class="car-kit">
       <div class="car-image" id="kit1">
         <img src="./Images/c9r_large.jpg" alt="Car Kit 1">
@@ -140,6 +147,9 @@
 <footer>
   <p>&copy; Suvam Chauhan - 200511405 - 23F Advanced Interface Design-CSS - Final Project</p>
 </footer>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
